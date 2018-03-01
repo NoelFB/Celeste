@@ -1,5 +1,5 @@
 # Celeste
-This repo is used to track issues and bugs with [Celeste](http://www.celestegame.com/).
+This repo is used to track issues and bugs with [Celeste](http://www.celestegame.com/). Before submitting an issue, please check the [Celeste changelog](http://www.celestegame.com/changelog.html) and closed issues to see if it has already been fixed.
 
 ### Info & Links
  - Tech support and general inquiries should be sent to our email at [contact.celestegame@gmail.com](mailto:contact.celestegame@gmail.com)
