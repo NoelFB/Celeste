@@ -27,5 +27,11 @@ The reason that "ChaserState" struct has a switch statement instead of an array 
 ### Isn't XNA Depricated?
 Yes, it is! We use XNA because we're comfortable in it, like C#, it's very stable on Windows, and is easy to make cross platforms with open source ports such as FNA and MonoGame. If you're playing on macOS or Linux you're on FNA, and on consoles you're on MonoGame. Will we use it for future projects? Maybe, maybe not.
 
+### Do you have any tutorials on how the basic physics of Celeste work?
+Not right now, but Matt wrote this overview of the TowerFall physics a few years back: https://mattmakesgames.tumblr.com/post/127890619821/towerfall-physics 
+
+Celeste's physics system is very similar to TowerFall's.
+
 ### How big was the programming team?
 We had 2 programmers working on Celeste (Noel and Matt).
+
