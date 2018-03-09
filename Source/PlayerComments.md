@@ -24,7 +24,7 @@ We do use a Scene->Entity->Component system, which may not entirely be clear fro
 ### Why no array in that `ChaserState` struct at the bottom?
 The reason that "ChaserState" struct has a switch statement instead of an array is to save on creating garbage. There's no way to have an array in a struct in C# with a predefined size, (ex. `int[4] fourValues;`) so every struct would be creating a new array instance. In the end this probably didn't matter, but we were trying to save on creating garbage during levels as we weren't sure how the GC would perform cross-platform.
 
-### Isn't XNA Depricated?
+### Isn't XNA Deprecated?
 Yes, it is! We use XNA because we're comfortable in it, like C#, it's very stable on Windows, and is easy to make cross platforms with open source ports such as FNA and MonoGame. If you're playing on macOS or Linux you're on FNA, and on consoles you're on MonoGame. Will we use it for future projects? Maybe, maybe not.
 
 ### Do you have any tutorials on how the basic physics of Celeste work?
