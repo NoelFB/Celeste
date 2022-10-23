@@ -350,7 +350,7 @@ b302b211000000110092b100000000a3b1b1b1b1b1b10011111232110000b342000000a282125284
                         print("pico-8 0.1.9B", 1, 18, 6);
                     if (t >= 40)
                     {
-                        print("(c) 2014-16 lexaloffle games llp", 1, 24, 6);
+                        print($"(c) 2014-{DateTime.Now.Year % 100} lexaloffle games llp", 1, 24, 6);
                         print("booting cartridge..", 1, 36, 6);
                     }
                     Draw.SpriteBatch.End();
